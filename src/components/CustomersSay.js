@@ -3,8 +3,8 @@ import userReviews from './reviews.json';
 import starIcon from '../images/Star.svg';
 
 function Rating({rating}) {
-  const stars = Array.from({ length: rating }, (_, index) => index).map(() => 
-    <li><img src={starIcon} alt="star" /></li>
+  const stars = Array.from({ length: rating }, (_, index) => index).map((index) => 
+    <li key={index}><img src={starIcon} alt="star" /></li>
   );
   return <ul className="rating">{stars}</ul>
 }
@@ -27,7 +27,7 @@ function Review(props) {
 
 function CustomersSay() {
   const reviews = userReviews.slice(0, 4).map((review) =>
-    <li><Review user={review} /></li>
+    <li key={review.userId}><Review user={review} /></li>
   );
   return (
     <section id="testimonials">

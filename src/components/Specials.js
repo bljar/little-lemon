@@ -27,7 +27,7 @@ function Card(props) {
 
 function Specials() {
   const listDishes = mydishes.slice(0, 3).map(dish =>
-    <li><Card dish={dish} /></li>
+    <li key={dish.id}><Card dish={dish} /></li>
   );
 
   return (
