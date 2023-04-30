@@ -1,6 +1,5 @@
 import logo from '../images/logo.svg';
 
-console.log(logo);
 function Header() {
   return (
     <header>

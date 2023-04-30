@@ -2,8 +2,6 @@ import './Specials.css';
 import mydishes from './dishes.json';
 import deliveryIcon from "../images/DeliveryIcon.svg"
 
-// console.log(dishes.slice(0, 3));
-
 function Card(props) {
   return (
     <article className="dish">
