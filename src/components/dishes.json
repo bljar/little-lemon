@@ -3,25 +3,25 @@
     "name": "Greek Salad",
     "description": "The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.",
     "price": 12.99,
-    "image": "/dish/GreekSalad.jpeg"
+    "image": "/dish/GreekSalad.jpg"
   },
   {
     "name": "Brushetta",
     "description": "Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil. Toppings of tomato, veggies, beans, cured pork, or cheese are examples of variations. In Italy, a brustolina grill is frequently used to create bruschetta.",
     "price": 7.99,
-    "image": "/dish/Brushetta.jpeg"
+    "image": "/dish/Brushetta.jpg"
   },
   {
     "name": "Grilled Fish",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed cursus.",
     "price": 20.00,
-    "image": "/dish/GrilledFish.jpeg"
+    "image": "/dish/GrilledFish.jpg"
   },
   {
     "name": "Pasta",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet nec in ornare.",
     "price": 18.99,
-    "image": "/dish/Pasta.jpeg"
+    "image": "/dish/Pasta.jpg"
   },
   {
     "name": "Lemon Dessert",

@@ -1,5 +1,5 @@
 import './CallToAction.css';
-import restaurantfood from '../images/restauranfood.jpg';
+import restaurantfood from '../images/RestaurantFood.jpg';
 
 function CallToAction() {
   return(
