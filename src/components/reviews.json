@@ -1,0 +1,47 @@
+[
+  {
+    "userId": 1,
+    "userName": "tilly",
+    "firstName": "Tilly",
+    "lastName": "",
+    "userRating": 5,
+    "comment": "The foods are delicious!",
+    "avatarUrl": "/avatar/Tilly.jpg"
+  },
+  {
+    "userId": 2,
+    "userName": "tilly",
+    "firstName": "Tilly",
+    "lastName": "",
+    "userRating": 5,
+    "comment": "The place is cozy!",
+    "avatarUrl": "/avatar/Tilly.jpg"
+  },
+  {
+    "userId": 3,
+    "userName": "tilly",
+    "firstName": "Tilly",
+    "lastName": "",
+    "userRating": 5,
+    "comment": "The overall service is excellent. The place is great!",
+    "avatarUrl": "/avatar/Tilly.jpg"
+  },
+  {
+    "userId": 4,
+    "userName": "tilly",
+    "firstName": "Tilly",
+    "lastName": "",
+    "userRating": 5,
+    "comment": "The online booking is useful and not confusing.",
+    "avatarUrl": "/avatar/Tilly.jpg"
+  },
+  {
+    "userId": 5,
+    "userName": "tilly",
+    "firstName": "Tilly",
+    "lastName": "",
+    "userRating": 5,
+    "comment": "The foods are delicious!",
+    "avatarUrl": "/avatar/Tilly.jpg"
+  }
+]
