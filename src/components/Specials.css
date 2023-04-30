@@ -1,0 +1,142 @@
+#highlights {
+  display: grid;
+  margin-top: 2rem;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "promo" "dishes" "menu";
+  margin: 0 0;
+}
+
+#highlights > .title {
+  grid-area: promo;
+  align-self: self-end;
+  justify-self: center;
+  margin-bottom: 1.5rem;
+}
+
+#highlights > .button-primary {
+  grid-area: menu;
+  align-self: self-end;
+  justify-self: center;
+  margin-bottom: 2rem;
+  min-width: 60vw;
+}
+
+.dishes-cards {
+  grid-area: dishes;
+  list-style: none;
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+  row-gap: 2rem;
+  margin: 0 0;
+  padding: 0 0;
+  margin-bottom: 2rem;
+}
+
+
+.dish {
+  display: grid;
+  width: 60vw;
+  height: fit-content;
+  grid-template-columns: min-content min-content min-content;
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-areas: "image image image"
+                       "name name price"
+                       "description description description"
+                       "button icon icon";
+  background-color: #EDEFEE;
+  border-radius: 1rem;
+}
+
+.dish-image {
+  grid-area: image;
+  object-fit: cover;
+  width: inherit;
+  aspect-ratio: 4/3;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.dish-name, .dish-price {
+  font-family: Karla;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 1rem 1.5rem;
+  align-self: center;
+}
+
+.dish-name {
+  grid-area: name;
+  color: black;
+  width: fit-content;
+}
+
+.dish-price {
+  grid-area: price;
+  justify-self: self-end;
+  color: #EE9972;
+  width: max-content;
+}
+
+.dish-description {
+  grid-area: description;
+  color: #495E57;
+  font-size: 1rem;
+  margin: 1rem 1.5rem;
+  max-height: 9.5rem;
+  overflow: hidden;
+}
+
+.delivery-button, .delivery-icon {
+  margin-bottom: 1.5rem;
+}
+
+.delivery-button {
+  grid-area: button;
+  font-size: 1rem;
+  width: max-content;
+  background: none;
+  margin-right: 0;
+  padding-left: 0;
+  margin-left: 1.5rem;
+}
+
+.delivery-icon {
+  grid-area: icon;
+  align-self: center;
+}
+
+@media (min-width: 640px) {
+  #highlights {
+    display: grid;
+    margin: 2rem 0;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: minmax(0, auto) 34rem 14rem minmax(0, auto);
+    grid-template-areas: "left promo menu right"
+                         "left dishes dishes right";
+  }
+
+  .dish {
+    width: 15rem;
+    height: 30rem;
+  }
+
+  #highlights > .title {
+    justify-self: self-start;
+    align-self: self-end;
+    margin-bottom: 1.5rem;
+  }
+  
+  #highlights > .button-primary {
+    justify-self: self-end;
+    margin-bottom: 2rem;
+    min-width: 10rem;
+  }
+  
+  .dishes-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 48rem;
+  }
+}
