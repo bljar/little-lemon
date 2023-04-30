@@ -11,7 +11,7 @@ function Rating({rating}) {
 
 function Avatar({firstName, lastName}) {
   const initial = firstName[0] + (lastName.length ? lastName[0] : "");
-  return <div class="initial-avatar">{initial}</div>
+  return <div className="initial-avatar">{initial}</div>
 }
 
 function Review(props) {
