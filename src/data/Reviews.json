@@ -1,0 +1,92 @@
+[
+  {
+    "userId": 1,
+    "userName": "kitty.reynolds",
+    "firstName": "Kitty",
+    "lastName": "Reynolds",
+    "userRating": 5,
+    "comment": "This cozy restaurant has left the best impressions! Hospitable hosts, delicious dishes, beautiful presentation, wide wine list and wonderful dessert. I recommend to everyone! I would like to come back here again and again.",
+    "avatarUrl": "https://randomuser.me/api/portraits/women/10.jpg"
+  },
+  {
+    "userId": 2,
+    "userName": "peter.hall",
+    "firstName": "Peter",
+    "lastName": "Hall",
+    "userRating": 5,
+    "comment": "First time in Little Lemon and YOU have to go! It's the cutest little spot with amazing food. The salad is to die for. IT WAS FIRE!! The service we received was so amazing and we will definitely be back again. They made us feel welcomed and gave us an amazing experience.",
+    "avatarUrl": "https://randomuser.me/api/portraits/men/18.jpg"
+  },
+  {
+    "userId": 3,
+    "userName": "marsha.dixon",
+    "firstName": "Marsha",
+    "lastName": "Dixon",
+    "userRating": 5,
+    "comment": "It's a great experience. The ambiance is very welcoming and charming. Amazing wines, food and service. Staff are extremely knowledgeable and make great recommendations.",
+    "avatarUrl": "https://randomuser.me/api/portraits/women/21.jpg"
+  },
+  {
+    "userId": 4,
+    "userName": "regina.scott",
+    "firstName": "Regina",
+    "lastName": "Scott",
+    "userRating": 5,
+    "comment": "This place is great! Atmosphere is chill and cool but the staff is also really friendly. They know what they're doing and what they're talking about, and you can tell making the customers happy is their main priority. Food is pretty good, some italian classics and some twists, and for their prices it's 100% worth it.",
+    "avatarUrl": "https://randomuser.me/api/portraits/women/83.jpg"
+  },
+  {
+    "userId": 5,
+    "userName": "ralph.ray",
+    "firstName": "Ralph",
+    "lastName": "Ray",
+    "userRating": 5,
+    "comment": "Do yourself a favor and visit this lovely restaurant in (CN). The service is unmatched. The staff truly cares about your experience. The food is absolutely amazing - everything we tasted melted in other mouths. Absolutely the best meal we had while in (CN). Highly recommend!",
+    "avatarUrl": "https://randomuser.me/api/portraits/men/25.jpg"
+  },
+  {
+    "userId": 6,
+    "userName": "angel.ramos",
+    "firstName": "Angel",
+    "lastName": "Ramos",
+    "userRating": 5,
+    "comment": "When we think about celebrations, Lil' Lemon is always our first option and it never disappoints. From the starter to the dessert the quality and tastes of everything was outstanding, my Greek salad, Brushetta, Grilled Fish might have been the best meal I have ever been served. Service was delightful and very professional. 10/10",
+    "avatarUrl": "https://randomuser.me/api/portraits/men/31.jpg"
+  },
+  {
+    "userId": 7,
+    "userName": "vivan.murphy",
+    "firstName": "Vivan",
+    "lastName": "Murphy",
+    "userRating": 5,
+    "comment": " I have to say, I enjoyed every single bite of the meal in Little Lemon. I had a 3 course meal, with a couple of beers. Considering the quality, the price is reasonable. Ideal for those who want a romantic night out. There was also plenty of room for bigger groups.",
+    "avatarUrl": "https://randomuser.me/api/portraits/women/46.jpg"
+  },
+  {
+    "userId": 8,
+    "userName": "roland.parker",
+    "firstName": "Roland",
+    "lastName": "Parker",
+    "userRating": 5,
+    "comment": "Excellent food. Menu is extensive and seasonal to a particularly high standard. Definitely fine dining. It can be expensive but worth it and they do different deals on different nights so it's worth checking them out before you book. Highly recommended.",
+    "avatarUrl": "https://randomuser.me/api/portraits/men/97.jpg"
+  },
+  {
+    "userId": 9,
+    "userName": "janet.sanders",
+    "firstName": "Janet",
+    "lastName": "Sanders",
+    "userRating": 5,
+    "comment": "This is my absolute favorite restaurant in (CN). The food is always fantastic and no matter what I order I am always delighted with my meal! Servers are also great and always efficient, happy and polite. Can't wait to return and wouldn't hesitate to recommend to anyone looking for somewhere to eat in (CN)",
+    "avatarUrl": "https://randomuser.me/api/portraits/women/80.jpg"
+  },
+  {
+    "userId": 10,
+    "userName": "tilly",
+    "firstName": "Tilly",
+    "lastName": "",
+    "userRating": 5,
+    "comment": "The food is delicious!",
+    "avatarUrl": ""
+  }
+]
