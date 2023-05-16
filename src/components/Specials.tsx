@@ -32,20 +32,20 @@ function Card(props: DishProps) {
   return (
     <article>
       <img
-        className="col-span-2 object-cover aspect-[4/3] rounded-t-xl"
+        className="col-span-2 aspect-[4/3] rounded-t-xl object-cover"
         src={props.imageUrl}
         alt={props.name}
       />
-      <div className="grid grid-cols-2 items-center p-5 gap-5 bg-highlight-1">
-        <h1 className="font-serif text-2xl">{props.name}</h1>
-        <h2 className="font-sans font-semibold text-right text-secondary-1">
+      <div className="grid grid-cols-2 items-center gap-5 bg-highlight-1 p-5">
+        <h3 className="text-2xl">{props.name}</h3>
+        <h4 className="text-right font-sans font-semibold text-secondary-1">
           $ {props.price}
-        </h2>
-        <p className=" col-span-2 h-32 overflow-y-hidden hover:overflow-y-scroll font-sans font-light text-gray-700 text-md">
+        </h4>
+        <p className="text-md col-span-2 h-32 overflow-y-hidden font-light text-gray-700 hover:overflow-y-scroll">
           {props.description}
         </p>
         <button className="col-span-2 flex items-baseline gap-x-2">
-          <h3 className="font-serif font-medium text-xl">Order a delivery</h3>
+          <h3 className="text-xl font-medium">Order a delivery</h3>
           <DeliveryIcon />
         </button>
       </div>
@@ -57,15 +57,10 @@ function Specials() {
   return (
     <section
       id="menu"
-      className="grid grid-cols-3 gap-x-5 gap-y-10 max-w-4xl mx-auto p-5 "
+      className="mx-auto grid max-w-4xl grid-cols-3 gap-x-5 gap-y-10 p-5 "
     >
-      <h1 className="col-span-2 font-serif text-highlight-2 text-6xl">
-        This week specials!
-      </h1>
-      <a
-        href="#menu"
-        className="m-auto mr-0 py-4 px-10 rounded-xl font-sans font-bold text-lg bg-primary-2"
-      >
+      <h1 className="col-span-2 text-highlight-2">This week specials!</h1>
+      <a href="#menu" className="btn-primary m-auto mr-0 px-10 py-4">
         Online Menu
       </a>
       {myDishes.slice(0, 3).map((dish) => (

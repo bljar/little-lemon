@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1,
+h2,
+h3 {
+  @apply font-serif;
+}
+
+h1 {
+  @apply text-6xl;
+}
+
+h2 {
+  @apply text-4xl;
+}
+
+p {
+  @apply font-sans text-base;
+}
+
+.btn-primary {
+  @apply rounded-2xl bg-primary-2 font-sans text-lg font-bold text-black;
+}
