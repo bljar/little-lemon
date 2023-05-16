@@ -3,9 +3,9 @@ import { FooterLogo } from "./Logo";
 function Footer() {
   return (
     <footer className="bg-primary-1 py-10">
-      <div className="mx-auto grid max-w-4xl grid-cols-1 px-5 sm:grid-cols-2 md:grid-cols-4">
+      <div className="mx-auto grid max-w-4xl grid-cols-2 gap-y-5 px-5 md:grid-cols-4">
         <div>
-          <FooterLogo className="h-48 px-5" />
+          <FooterLogo className="h-48" />
         </div>
         <div>
           <h4 className="text-lg font-bold text-primary-2">

@@ -17,12 +17,12 @@ function Chicago() {
       </p>
       <div className="col-start-2 row-span-4 row-start-1 ml-auto flex -space-x-24">
         <img
-          className="z-10 mt-20 aspect-[15/16] h-1/2 rounded-xl object-cover  shadow-2xl hover:h-3/5"
+          className="z-10 mt-20 aspect-[15/16] h-1/2 rounded-xl object-cover  shadow-2xl"
           src={MarioAdrianA}
           alt="Mario and Adrian A"
         />
         <img
-          className="z-0 mb-20 aspect-[15/16] h-1/2 rounded-xl object-cover shadow-2xl hover:z-20 hover:h-3/5"
+          className="z-0 mb-20 aspect-[15/16] h-1/2 rounded-xl object-cover shadow-2xl hover:z-20"
           src={MarioAdrianB}
           alt="Mario and Adrian B"
         />
