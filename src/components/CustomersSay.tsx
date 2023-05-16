@@ -95,7 +95,7 @@ function Review(props: reviewProps) {
 }
 
 function CustomersSay() {
-  const reviews = userReviews.slice(0, 4).map((review) => (
+  const reviews = userReviews.slice(0, 6).map((review) => (
     <li key={review.userId} className="leading-6">
       <Review
         userId={review.userId}
