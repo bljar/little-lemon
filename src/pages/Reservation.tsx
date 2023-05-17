@@ -1,5 +1,11 @@
+import ResForm from "../components/ResForm";
+
 function Reservation() {
-  return <main>Hello</main>;
+  return (
+    <main>
+      <ResForm />
+    </main>
+  );
 }
 
 export default Reservation;

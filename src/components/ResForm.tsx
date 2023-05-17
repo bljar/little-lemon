@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import "./BookingPage.css";
 
 function BookingPage() {
   const [resDate, setResDate] = useState("");
@@ -31,13 +30,13 @@ function BookingPage() {
   };
 
   return (
-    <section id="reservation">
-      <h1>Reserve a table</h1>
-      <p>
-        Have a wonderful time dining at our restaurant with your friends and
-        family
-      </p>
+    <section id="reservation" className="bg-primary-1">
       <form className="res-form" onSubmit={handleSubmit}>
+        <h1 className="text-primary-2">Reserve a table</h1>
+        <p>
+          Have a wonderful time dining at our restaurant with your friends and
+          family
+        </p>
         <fieldset className="res-fieldset">
           <label className="res-label" htmlFor="res-date">
             Choose date
