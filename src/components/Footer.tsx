@@ -1,4 +1,4 @@
-import { FooterLogo } from "./Logo";
+import { FooterLogo } from "./Icons";
 
 function Footer() {
   return (
