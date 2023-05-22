@@ -187,3 +187,105 @@ export const ChevronLeft = (props: iconProp) => {
     </svg>
   );
 };
+
+export const ChevronDown = (props: iconProp) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="currentColor"
+      strokeWidth={1.5}
+      className={props.className}
+    >
+      <path
+        fillRule="evenodd"
+        d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
+        clipRule="evenodd"
+      />
+    </svg>
+  );
+};
+
+export const ChevronUp = (props: iconProp) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="currentColor"
+      strokeWidth={1.5}
+      className={props.className}
+    >
+      <path
+        fillRule="evenodd"
+        d="M11.47 7.72a.75.75 0 011.06 0l7.5 7.5a.75.75 0 11-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 01-1.06-1.06l7.5-7.5z"
+        clipRule="evenodd"
+      />
+    </svg>
+  );
+};
+
+export const CalendarIcon = (props: iconProp) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth={1.5}
+      className={props.className}
+      aria-hidden="true"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+      />
+    </svg>
+  );
+};
+
+export const Person = (props: iconProp) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 96 960 960"
+      fill="currentColor"
+      className={props.className}
+    >
+      <path d="M480 575q-66 0-108-42t-42-108q0-66 42-108t108-42q66 0 108 42t42 108q0 66-42 108t-108 42zM160 896v-94q0-38 19-65t49-41q67-30 128.5-45T480 636q62 0 123 15.5t127.921 44.694q31.301 14.126 50.19 40.966Q800 764 800 802v94H160zm60-60h520v-34q0-16-9.5-30.5T707 750q-64-31-117-42.5T480 696q-57 0-111 11.5T252 750q-14 7-23 21.5t-9 30.5v34zm260-321q39 0 64.5-25.5T570 425q0-39-25.5-64.5T480 335q-39 0-64.5 25.5T390 425q0 39 25.5 64.5T480 515zm0-90zm0 411z"></path>
+    </svg>
+  );
+};
+
+export const WineGlasses = (props: iconProp) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 96 960 960"
+      fill="currentColor"
+      className={props.className}
+    >
+      <g strokeWidth="0.752">
+        <path
+          d="M52.404 880.949l14.461-53.967 76.256 20.433 44.587-166.4q-54.698-28.153-71.418-95.973-16.721-67.819 4.872-148.41l57.842-215.87 281.56 75.444-57.842 215.87q-21.69 80.951-70.032 131.14-48.342 50.191-109.79 47.223l-44.587 166.4 76.256 20.433-14.46 53.967zm166.07-244.71q40.558 10.868 82.215-23.762t58.432-83.157l-208.82-55.954q-10.323 50.256 8.648 101.13 18.971 50.875 59.53 61.742zm-54.89-217.16l211.17 56.583 36.151-134.92-211.17-56.583zM719.887 931.239l-14.461-53.967 76.256-20.433-44.587-166.4q-61.446 2.968-109.84-47.406-48.39-50.373-69.984-130.96l-57.842-215.87 281.56-75.444 57.842 215.87q21.691 80.951 4.921 148.59-16.769 67.638-71.467 95.79l44.587 166.4 76.256-20.433 14.461 53.967zm21.467-294.96q40.558-10.868 59.32-61.686 18.761-50.819 9.025-101.23l-208.82 55.954q16.188 48.684 58.055 83.258t82.425 23.706zm-156.11-160.62l211.17-56.583-36.151-134.92-211.17 56.583z"
+          transform="translate(23.519 28.22) scale(.95101)"
+        ></path>
+      </g>
+    </svg>
+  );
+};
+
+export const Alarm = (props: iconProp) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 96 960 960"
+      fill="currentColor"
+      className={props.className}
+    >
+      <path d="M479 974q-74 0-139.5-28t-114-76.5q-48.5-48.5-77-114T120 615.267q0-74.733 28.5-140T225.5 361q48.5-49 114-77T479 256q74 0 139.5 28T733 361q49 49 77 114.267t28 140Q838 690 810 755.5t-77 114Q684 918 618.5 946T479 974zm0-357zm121 161l42-42-130-130V416h-60v214l148 148zM214 189l42 42L92 389l-42-42 164-158zm530 0l164 158-42 42-164-158 42-42zM479.043 914Q604 914 691 826.957t87-212Q778 490 690.957 403t-212-87Q354 316 267 403.043t-87 212Q180 740 267.043 827t212 87z"></path>
+    </svg>
+  );
+};
