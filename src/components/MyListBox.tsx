@@ -13,6 +13,7 @@ interface listBoxProps {
     placeholder: string;
     unavailable: boolean;
   }[];
+  className: string;
 }
 
 const selectIcon = (iconName: string) => {
@@ -32,11 +33,11 @@ function MyListBox(props: listBoxProps) {
   const [valueSelected, setValueSelected] = useState(props.placeholder);
 
   return (
-    <div className="max-h-sm relative max-w-xs">
+    <div className={props.className}>
       <Listbox value={props.selected} onChange={props.setSelected}>
         <Listbox.Button
           as="div"
-          className={`flex cursor-pointer items-center justify-between rounded-md bg-highlight-1 px-3 py-2 text-primary-1 drop-shadow-lg ${
+          className={`relative z-0 flex cursor-pointer items-center justify-between rounded-md bg-highlight-1 px-4 py-3 text-primary-1 drop-shadow-lg ${
             props.selected && "bg-primary-1 text-white"
           }`}
         >
@@ -60,7 +61,7 @@ function MyListBox(props: listBoxProps) {
           leaveTo="opacity-0 translate-y-1"
         >
           <Listbox.Options
-            className={`absolute mt-2 grid w-full cursor-pointer overflow-auto border bg-white shadow-lg focus:outline-none ${
+            className={`absolute z-10 mt-2 grid w-full cursor-pointer overflow-auto border bg-white shadow-lg focus:outline-none ${
               props.lists.length > 5 && "grid-cols-2"
             }`}
           >
