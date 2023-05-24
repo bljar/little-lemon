@@ -16,6 +16,7 @@ import { Popover, Transition } from "@headlessui/react";
 import { CalendarIcon, ChevronDown, ChevronUp } from "./Icons";
 
 interface datePickerProp {
+  id: string;
   className: string;
   selectedDate: any;
   setSelectedDate: Dispatch<any>;
@@ -53,7 +54,7 @@ function DatePicker(props: datePickerProp) {
   });
 
   return (
-    <Popover className={props.className}>
+    <Popover className={props.className} id={props.id}>
       <Popover.Button
         as="div"
         className={`flex cursor-pointer items-center justify-between rounded-md bg-highlight-1 px-4 py-3 text-primary-1 drop-shadow-lg ${

@@ -3,6 +3,8 @@ import { Listbox, Transition } from "@headlessui/react";
 import { ChevronDown, ChevronUp, Person, WineGlasses, Alarm } from "./Icons";
 
 interface listBoxProps {
+  id: string;
+  className: string;
   selected: any;
   setSelected: Dispatch<any>;
   placeholder: string;
@@ -13,7 +15,6 @@ interface listBoxProps {
     placeholder: string;
     unavailable: boolean;
   }[];
-  className: string;
 }
 
 const selectIcon = (iconName: string) => {
@@ -33,7 +34,7 @@ function MyListBox(props: listBoxProps) {
   const [valueSelected, setValueSelected] = useState(props.placeholder);
 
   return (
-    <div className={props.className}>
+    <div id={props.id} className={props.className}>
       <Listbox value={props.selected} onChange={props.setSelected}>
         <Listbox.Button
           as="div"
